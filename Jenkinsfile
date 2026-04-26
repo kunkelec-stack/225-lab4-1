@@ -6,7 +6,7 @@ pipeline {
         DOCKER_IMAGE = 'cithit/kunkelec'                                   //<-----change this to your MiamiID!
         IMAGE_TAG = "build-${BUILD_NUMBER}"
         GITHUB_URL = 'https://github.com/kunkelec-stack/225-lab4-1.git'     //<-----change this to match this new repository!
-        KUBECONFIG = credentials('kunkelec-sp26-225')                           //<-----change this to match your kubernetes credentials (MiamiID-225)! 
+        KUBECONFIG = credentials('kunkelec-225-sp26')                           //<-----change this to match your kubernetes credentials (MiamiID-225)! 
     }
 
     stages {
